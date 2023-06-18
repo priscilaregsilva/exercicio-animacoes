@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #891463;
+}
+
+section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.coracao {
+    width: 350px;
+    animation: coracao_batendo 2s infinite;
+}
+
+@keyframes coracao_batendo {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
